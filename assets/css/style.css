@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans','Roboto';
+}
+.container{
+    display: flex;
+    margin:0;
+    padding:0;
+}
+.chat-list{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    min-height: 100vh;
+    width: 20%;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 8% 6% 8%;
+    border-bottom: 1.5px solid #BEC1BB;
+}
+.my-status{
+    display: flex;
+}
+.status{
+    color:gray;
+}
+.me img{
+    border-radius: 100%;
+    width: 2.5em;
+    height: 2.5em;
+    border: solid 2px #d6d9d1;
+}
+.icons{
+    display: flex;
+    color:#BEC1BB;
+    padding: 4%;
+}
+.icons i{
+    padding-right: 20%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    justify-content: center;
+}
+.my-name{
+    margin:0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.status{
+    margin:0;
+    font-weight: lighter;
+}
+.new-chat{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid #BEC1BB;
+}
+button{
+    color:white;
+    background-color: #a491d2;
+    border: 0px;
+    padding: 5% 7.5% 5% 7.5%;
+    margin: 15%;
+    width: 90%;
+    font-size: 1.5em;
+}
+.chatbox{
+    display:flex;
+    padding: 2% 8% 2% 8%;
+    border-bottom: 1.5px solid #BEC1BB;
+    align-items: center;
+}
+.contact{
+    display: flex;
+}
+.contact img{
+    border-radius: 100%;
+    width: 4em;
+    height: 4em;
+    object-fit: contain;
+    border: solid 2px #d6d9d1;
+}
+.contact-name{
+    margin: 0;
+    font-size: 1.5em;
+}
+.msg{
+    margin:0;
+}
+.main{
+    display:flex;
+    width: 80%;
+    border-left: 1.5px solid #BEC1BB;
+    background-color: #FAFAFA;
+}
+.main-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.main-center img{
+    width: 40%;
+    border-radius: 5%;
+}
+.main-center h1{
+    font-size:3em;
+    margin:0;
+    padding-top:2.5%;
+}
+.main-center p{
+    font-size:1.5em;
+    margin:0;
+}
+.main-center span{
+    font-weight: bold;
+}
